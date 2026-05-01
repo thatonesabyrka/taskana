@@ -6,11 +6,12 @@ import plusIcon from '../../assets/icons/plus.svg'
 export function Header() {
   return (
     <header className={styles.header}>
-      <Logo />
-      <Button type="button">
-        <img src={plusIcon} alt="Создать" width={24} height={24} />
-        <span>Создать</span>
-      </Button>
+      <div className={`${styles.headerInner} container`}>
+        <Logo />
+        <Button type="button" imageSrc={plusIcon} variant='accent'>
+          <span>Создать</span>
+        </Button>
+      </div>
     </header>
   )
 }

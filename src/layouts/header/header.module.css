@@ -1,7 +1,12 @@
 .header {
   display: flex;
+  align-items: center;
+  height: var(--header-height);
+  background-color: var(--color-header-bg);
+}
+
+.headerInner {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 24px 12px 16px;
-  background-color: var(--color-header-bg);
 }

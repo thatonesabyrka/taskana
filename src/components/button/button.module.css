@@ -5,7 +5,16 @@
   padding: 8px 16px 8px 12px;
   font-weight: 600;
   color: var(--color-bg-primary);
-  background-color: var(--color-button-primary-bg);
   border: none;
   border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: var(--color-text-primary);
+}
+
+.button--accent {
+  background-color: var(--color-button-primary-bg);
 }

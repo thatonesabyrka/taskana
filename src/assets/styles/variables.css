@@ -1,0 +1,42 @@
+:root {
+  --neutral-0: #ffffff;
+  --neutral-100: #fbfbfb;
+  --neutral-200: #f3f3f3;
+  --neutral-300: #ececec;
+  --neutral-400: #bfbfbf;
+  --neutral-500: #8c8c8c;
+  --neutral-600: #6c6c6c;
+  --neutral-700: #393939;
+  --neutral-800: #1c1c1c;
+  --neutral-900: #141414;
+
+  --primary-0: #fff4f4;
+  --primary-100: #ffcece;
+  --primary-200: #fca9a9;
+  --primary-300: #f25959;
+  --primary-400: #d51010;
+  --primary-500: #a60c0c;
+  --primary-600: #760909;
+
+  --base-black: #000000;
+
+  --color-bg-primary: var(--neutral-0);
+  --color-bg-secondary: var(--neutral-100);
+
+  --color-text-primary: var(--neutral-800);
+  --color-text-secondary: var(--neutral-600);
+
+  --color-border-default: var(--neutral-400);
+  --color-border-hover: var(--neutral-600);
+
+  --color-icon-default: var(--neutral-500);
+
+  --color-button-secondary-bg: var(--neutral-200);
+  --color-button-secondary-hover: var(--neutral-300);
+
+  --color-button-primary-bg: var(--primary-400);
+  --color-button-primary-hover: var(--primary-500);
+  --color-button-primary-active: var(--primary-300);
+
+  --color-header-bg: var(--base-black);
+}

@@ -1,0 +1,15 @@
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainHeader {
+  padding: 24px;
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+}

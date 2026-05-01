@@ -1,4 +1,4 @@
-import { Statistic } from '../components/Statistic'
+import { Statistic } from '../components/statistic'
 
 export function SideBar() {
   return (

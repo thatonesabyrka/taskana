@@ -26,7 +26,7 @@
   --color-text-primary: var(--neutral-800);
   --color-text-secondary: var(--neutral-600);
 
-  --color-border-default: var(--neutral-400);
+  --color-border-default: var(--neutral-300);
   --color-border-hover: var(--neutral-600);
 
   --color-icon-default: var(--neutral-500);
@@ -39,4 +39,11 @@
   --color-button-primary-active: var(--primary-300);
 
   --color-header-bg: var(--base-black);
+
+  --font-family-base: 'Source Sans 3';
+
+  --container-width: 1280px;
+  --container-padding-x: 16px 24px;
+
+  --header-height: 64px;
 }

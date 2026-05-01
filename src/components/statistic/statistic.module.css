@@ -1,0 +1,12 @@
+.statistic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  height: 100%;
+  padding-inline: 24px;
+  text-align: center;
+  background-color: var(--color-bg-secondary);
+  border-left: 1px solid var(--color-border-default);
+}

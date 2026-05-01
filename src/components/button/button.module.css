@@ -1,0 +1,11 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 8px;
+  padding: 8px 16px 8px 12px;
+  font-weight: 600;
+  color: var(--color-bg-primary);
+  background-color: var(--color-button-primary-bg);
+  border: none;
+  border-radius: 8px;
+}

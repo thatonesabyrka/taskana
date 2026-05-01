@@ -1,4 +1,4 @@
-import { Header } from './Header'
+import { Header } from './header'
 import { Content } from './Content'
 
 export function AppLayout() {
